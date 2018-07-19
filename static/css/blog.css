@@ -1,0 +1,182 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/*@font-face {*/
+    /*font-family: BKoodakBold;*/
+    /*src: url(../fonts/BKoodakBold.eot) format('eot'), url(../fonts/BKoodakBold.woff) format('woff'), url(../fonts/BKoodakBold.ttf) format('truetype')*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: BYekan;*/
+    /*src: url(../fonts/BYekan.eot) format('eot'), url(../fonts/BYekan.woff) format('woff'), url(../fonts/BYekan.ttf) format('truetype')*/
+/*}*/
+
+body {
+
+}
+*{
+    /*font-family: BKoodakbold;*/
+}
+footer {
+    margin: 50px 0;
+}
+
+.ltr {
+    direction: ltr !important;
+    text-align: left !important;
+}
+tr.pending {
+    background: #FCE9E9 !important;
+}
+.w30p{
+    width: 32%;
+    display: inline-block;
+}
+.w50p{
+    width: 50%;
+    display: inline-block;
+}
+.cred{
+    color: #ffc6bf !important;
+}
+.cyellow{
+    color: #fffe40 !important;
+}
+
+.center{
+    text-align: center;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+p.date{
+    text-align: left;
+    color: #777;
+}
+h1{
+    margin-top: 0 !important;
+}
+h1,h2{
+    font-family: BYekan !important;
+}
+select{
+    min-width: 200px;
+}
+table tr:first-child {
+    background: #eee !important;
+    color: #003cb3;
+    font-weight: bold;
+    font-size: 18px;
+}
+.media{
+    position: relative;
+}
+.vote {
+    position: absolute;
+    top: -12px;
+    right: 0;
+}
+.vote .rateUp,.vote .rateDown{
+    font-weight: bold;
+    font-size: 26px;
+    cursor: pointer;
+}
+.vote .rateUp:hover,.vote .rateDown:hover{
+    color: black;
+}
+.vote .rateUp{
+    color: green;
+}
+.vote .rateDown{
+    color: red;
+}
+.vote .rateVal{
+    direction: ltr;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+}
+.postText{
+    font-size: 16px;
+}
+
+.pager{
+    white-space: nowrap;
+}
+
+textarea{
+   max-width: 100%;
+    min-width: 50%;
+    text-align: left;
+}
+/***** postbox styles *****/
+.topic-title h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 2px 4px 2px;
+    padding-bottom: 10px;
+}
+.topic-title h1 a{
+    color: #0020ff;
+    font-size: 22px;
+}
+.topic-title h1 a:hover{
+    opacity: .7;
+}
+.topic-title p{
+    text-align: justify;
+    line-height: 24px;
+    padding: 3px;
+}
+.panel-body-custom-postbox{padding: 7px}
+.panel-heading-custom-postbox ul{
+    margin-bottom: 3px;
+}
+.panel-heading-custom-postbox{
+    position: relative;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    min-height: 30px;
+
+}
+.panel-heading-custom-postbox a{color: #fff}
+.panel-heading-custom-postbox a:hover{color: yellow}
+.panel-heading-custom-postbox{padding: 7px 3px;}
+.angle{
+    position: absolute;
+    height: 0px;
+    top: -15px;
+    width: 0px;
+    border: 8px solid #4F54B6;
+    /*border-bottom-color: blue;*/
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+/****** Search box ****/
+.panel-heading-news-letter{
+    height:40px;
+    padding: 6px;
+    font-size: 16px;
+}
+.panel-heading-news-letter p{color: #fff}
+.panel-body-news-letter{text-align: left;  }
+.panel-body-news-letter p{padding-bottom: 20px; }
+.footer-news-letter ul li a{
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;}
+.footer-news-letter ul li a:hover{
+    opacity: .5;
+}
+
+.modal{
+    overflow-y:hidden;
+}

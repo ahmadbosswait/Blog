@@ -95,7 +95,7 @@
         <?php if ($numPosts != 0) { ?>
             <div class="center"><?php echo "page $page  from $numPages"; ?></div>
         <?php } ?>
-        <!-- تمرین : صفحه بندی مطالب را انجام دهید. -->
+        
 
     </div>
 <?php include_once 'sidebar.php'; ?>
